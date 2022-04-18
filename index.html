@@ -41,12 +41,12 @@
     }
 
     function getMessage() {
-        $.get('http://localhost:3000/messages', (data) => {
+        $.get('https://roshan-77.github.io/OnlineChattingApp/messages', (data) => {
             data.forEach(addMessages);
         })
     }
 
     function postMessage(message) {
-        $.post('http://localhost:3000/messages', message)
+        $.post('https://roshan-77.github.io/OnlineChattingApp/messages', message)
     }
 </script>
